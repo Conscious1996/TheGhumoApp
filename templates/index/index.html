@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ghumo &mdash;Find your destination and enjoy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FreeHTML5.co" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
+
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+	{% load staticfiles %}
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'css/animate.css'%}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'css/icomoon.css'%}">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="{% static 'css/simple-line-icons.css'%}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+	<!-- Modernizr JS -->
+	<script src="{% static 'js/modernizr-2.6.2.min.js'%}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	
+	
+	<div id="fh5co-page">
+	<header id="fh5co-header" style="background-color: honeydew;" role="banner">
+		<div class="container">
+			<div class="header-inner">
+				<h1><i class="sl-icon-energy"></i><a style="color: firebrick;" href="/index">Ghumo</a></h1>
+				<nav role="navigation">
+					<ul>
+						<li><a class="active" href="/index">Home</a></li>
+						<li><a href="/news">News</a></li>
+						<li><a href="/places">Places</a></li>
+						<li><a href="/services">Services</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/login">Login</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div id="fh5co-intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2>Ghumo is a website, that helps to find best places in this world to visit </h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-featured-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<a href="#" class="featured-grid" style="background-image: url({% static 'images/sweden.jpg'%});">
+						<div class="desc">
+							<h3>beautiful place on earth</h3>
+							<span>Sweden</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6">
+					<a href="#" class="featured-grid featured-grid-2" style="background-image: url({% static 'images/rome.jpg'%});">
+						<div class="desc">
+							<h3>The Ancient City</h3>
+							<span>Rome</span>
+						</div>
+					</a>
+					<div class="row">
+						<div class="col-md-6">
+							<a href="#" class="featured-grid featured-grid-2" style="background-image: url({% static 'images/sydney.jpg'%});">
+								<div class="desc">
+									<h3>The Metro city</h3>
+									<span>Sydney</span>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-6">
+							<a href="#" class="featured-grid featured-grid-2" style="background-image: url({% static 'images/angkor_wat.jpg'%});">
+								<div class="desc">
+									<h3>The Ancient Temple</h3>
+									<span>Angkor wat, Cambodia</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-services-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+					<h2>Our Awesome Services</h2>
+					<p>Any place you wanted to visit but you could not. then this website is for you</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 services-inner text-center">
+					<span><i class="sl-icon-graph"></i></span>
+					<h3>Choose your place</h3>
+					<p>You can choose your places by click on places on navigation bar</p>
+				</div>
+				<div class="col-md-4 services-inner text-center">
+					<span><i class="sl-icon-heart"></i></span>
+					<h3>Know about your place</h3>
+					<p>Click on that place, that you want to know about. all the information of that place is available in our website</p>
+				</div>
+				<div class="col-md-4 services-inner text-center">
+					<span><i class="sl-icon-key"></i></span>
+					<h3>Help &amp; Support</h3>
+					<p>Our staff is always happy to support and help you in any situation at any place.</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-blog-section" class="fh5co-grey-bg-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+					<h2>Recent News</h2>
+					<p>These are the latest news regarding tourist destinations. </p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<div class="blog-inner">
+						<a href="exp#cali"><img class="img-responsive" src="{% static 'images/Cali.jpg'%}" alt="Blog"></a>
+						<div class="desc">
+							<h3><a href="exp#cali">Old Railroad Set to Become a 300-mile Hiking Trail Through California Wine Country</a></h3>
+							<p>Seeing the best of California’s North Coast is about to get easier and better than ever.
+
+								According to SFGate, a proposed bill</p>
+							<p><a href="exp#cali" class="btn btn-primary btn-outline with-arrow">Read More<i class="icon-arrow-right"></i></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center">
+					<div class="blog-inner">
+						<a href="exp#amadeus"><img class="img-responsive" src="{% static 'images/AMADESUS.jpg'%}" alt="Blog"></a>
+						<div class="desc">
+							<h3><a href="exp#amadeus">39% of Indians plan travel during weekends: Amadeus</a></h3>
+							<p>About 39 per cent of Indians do most of their travel planning during weekends, which is higher than the regional average of </p>
+							<p><a href="exp#amadeus" class="btn btn-primary btn-outline with-arrow">Read More<i class="icon-arrow-right"></i></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center">
+					<div class="blog-inner">
+						<a href="exp#amadeus"><img class="img-responsive" src="{% static 'images/WTTC.jpg'%}" alt="Blog"></a>
+						<div class="desc">
+							<h3><a href="exp#amadeus">8.8 per cent growth expected in visitor exports to India in 2018: WTTC</a></h3>
+							<p>In 2018, visitor exports are expected to grow by 8.8 per cent, and India is expected to attract 18,655,000 international tourist arrivals,</p>
+							<p><a href="exp#amadeus" class="btn btn-primary btn-outline with-arrow">Read More<i class="icon-arrow-right"></i></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer id="fh5co-footer" role="contentinfo">
+	
+		<div class="container">
+			<div class="col-md-3 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>About Us</h3>
+				<p>Ghumo is a website for tourism information and to know the information about diggerent tourist places in the world
+					. Ghumo was developed by an india web developer Mr Rajat tyagi.</p>
+			</div>
+			<div class="col-md-6 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>Our Services</h3>
+				<ul class="float">
+					<li><a href="#">Places</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Log in</a></li>
+				</ul>
+				<ul class="float">
+					<li><a href="#">Tourist Destinations</a></li>
+					<li><a href="#">Tourist Site Information</a></li>
+					<li><a href="#">Information Sharing</a></li>
+				</ul>
+
+			</div>
+
+			<div class="col-md-2 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>Follow Us</h3>
+				<ul class="fh5co-social">
+					<li><a href="#"><i class="icon-twitter"></i> Twitter</a></li>
+					<li><a href="#"><i class="icon-facebook"></i> Facebook</a></li>
+					<li><a href="#"><i class="icon-google-plus"></i> Google Plus</a></li>
+					<li><a href="#"><i class="icon-instagram"></i> Instagram</a></li>
+				</ul>
+			</div>
+			
+			
+			<div class="col-md-12 fh5co-copyright text-center">
+				<p>&copy; 2018 Ghumo. All Rights Reserved.</p>	
+			</div>
+			
+		</div>
+	</footer>
+	</div>
+	
+	
+	<!-- jQuery -->
+	<script src="{% static 'js/jquery.min.js'%}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'js/jquery.easing.1.3.js'%}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'js/bootstrap.min.js'%}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'js/jquery.waypoints.min.js'%}"></script>
+	<!-- MAIN JS -->
+	<script src="{% static 'js/main.js'%}"></script>
+
+	</body>
+</html>
+
